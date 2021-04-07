@@ -1,0 +1,9 @@
+h1 {
+    color: blue;
+}
+
+@media only screen and (min-width: 1140px) {
+    .banner > p {
+        color: blue;
+    }
+}

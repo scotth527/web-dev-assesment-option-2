@@ -7,29 +7,126 @@
     <link rel="stylesheet" href="../src/scss/app.scss" />
   </head>
   <body>
-    <nav>
-        <h1>Hello world!</h1>
-        <div class="logo"></div>
-        <ul class="news-logos">
-            <li></li>
-            </ul>
-    </nav>
+    <header class="navbar">
+        <div class="logo">
+            <img src="../src/assets/images/logos/logo-placeholder.png" alt="logo"/>
+        </div>
+        <nav>
+            <a href="" class="nav-link">About</a>
+            <a href="" class="nav-link">Who We Are</a>
+            <a href="" class="nav-link">What We Do</a>
+            <a href="" class="nav-link">Contact</a>
+        </nav>
+    </header>
 
-    <div class="container">
-        <div class="hero"></div>
+    <main>
+        <section class="banner website-intro flex-container justify-content-center flex-column">
+            <h1>YOUR SUCCESSFUL WEBSITE TITLE</h1>
+            <blockquote class="quote">
+                "The first rule of any technology used in a business is that
+                automation applied to an efficient operation will magnify the efficiency. The second is that
+                automation applied to an inefficient operation will magnify the inefficiency."
+            </blockquote>
+        </section>
 
-        <div class="headline"></div>
-        <div class="info"></div>
-    </div>
+        <section class="benefits">
+            <article>
+                <img src="../src/assets/images/icons/icon-growth.png" alt="growth-chart"/>
+                <h3 class="benefits_heading"></h3>
+                <p class="benefits_info"></p>
+            </article>
+            <article>
+                <img src="../src/assets/images/icons/icon-megaphone.png" alt="megaphone"/>
+                <h3 class="benefits_heading"></h3>
+                <p class="benefits_info"></p>
+            </article>
+            <article>
+                <img src="../src/assets/images/icons/icon-shack.png" alt="house"/>
+                <h3 class="benefits_heading"></h3>
+                <p class="benefits_info"></p>
+            </article>
+            <article>
+                <img src="../src/assets/images/icons/icon-suitcase.png" alt="suitcase"/>
+                <h3 class="benefits_heading"></h3>
+                <p class="benefits_info"></p>
+            </article>
+        </section>
 
-    <noscript>
-      <strong
-        >We're sorry but this application doesn't work properly without
-        JavaScript enabled. Please enable it to continue.
-      </strong>
-    </noscript>
-    <div id="app"></div>
+        <section class="info">
+            <article>
+                <img src="../src/assets/images/misc/team collaborating-min.png" alt="team-collaborating"/>
+                <h3>Goals We Can Help You Achieve</h3>
+                <p></p>
+            </article>
+            <article>
+                <img src="../src/assets/images/misc/meeting room-min.png" alt="meeting room meeting"/>
+                <h3>It All Starts With Strategy</h3>
+                <p></p>
+            </article>
+        </section>
 
+        <section class="plan">
+            <article>
+                <div class="icons">
+                    <img src="../src/assets/images/icons/icon-chart.png" alt="pie-chart">
+                    <p class="icon-description">75% GROWTH</p>
+                    <img src="../src/assets/images/icons/icon-dollar.png" alt="dollar-sign">
+                    <p class="icon-description">115% PROFIT</p>
+                    <img src="../src/assets/images/icons/icon-laptop.png" alt="computer-with-dollar-sign">
+                    <p class="icon-description">32% SAVINGS</p>
+                    <img src="../src/assets/images/icons/icon-mail.png" alt="email-icon">
+                    <p class="icon-description">24/7 SUPPORT</p>
+                </div>
+                <h3>We'll Help You Create a Plan</h3>
+                <p>Placeholder</p>
+            </article>
+        </section>
+
+        <section class="banner contact-us-banner flex-container justify-content-center flex-column">
+            <h1>LET'S CREATE SOMETHING GREAT TOGETHER</h1>
+            <p class="banner-text">
+                "The first rule of any technology used in a business is that
+                automation applied to an efficient operation will magnify the efficiency. The second is that
+                automation applied to an inefficient operation will magnify the inefficiency."
+            </p>
+            <button class="btn btn-contact">CONTACT US</button>
+        </section>
+
+
+        <section class="testimonials">
+            <article class="testomonial">
+                <img class="quote-icon" src="../src/assets/images/icons/quotation mark.png" alt="quotations">
+                <p>Example</p>
+                <img src="../src/assets/images/profiles/Layer 2.png" alt="Jane Doe profile">
+                <h4 class="name">Jane Doe</h4>
+                <p class="company-position">CEO, Business Solutions</p>
+            </article>
+            <article class="testomonial">
+                <img class="quote-icon" src="../src/assets/images/icons/quotation mark.png" alt="quotations">
+                <p></p>
+                <img src="../src/assets/images/profiles/Layer 3.png" alt="John Doe profile">
+                <h4 class="name">John Doe</h4>
+                <p class="company-position">CEO, Business Solutions</p>
+            </article>
+        </section>
+
+        <section class="banner start-invite">
+            <h2>LET'S BRING IT TO THE NEXT LEVEL</h2>
+            <p>We're here to guide you in the right direction when it comes to
+                improving technology and growing your business.</p>
+            <button class="btn btn-contact">START TODAY</button>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <section>
+
+            </section>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/85f280929d.js" crossorigin="anonymous"></script>
     <script src="../src/app.js"></script>
   </body>
 </html>
