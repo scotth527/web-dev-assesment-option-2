@@ -13,3 +13,23 @@
 .flex-column {
     flex-direction: column;
 }
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    article {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.footer, .start-invite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

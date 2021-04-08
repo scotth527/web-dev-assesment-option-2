@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla Parcel Boilerplate</title>
     <link rel="stylesheet" href="../src/scss/app.scss" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="navbar">
-        <div class="logo">
+        <a href="" class="logo">
             <img src="../src/assets/images/logos/logo-placeholder.png" alt="logo"/>
         </div>
         <nav>
@@ -21,15 +23,17 @@
 
     <main>
         <section class="banner website-intro flex-container justify-content-center flex-column">
+            <div class="banner__filter"></div>
             <h1>YOUR SUCCESSFUL WEBSITE TITLE</h1>
             <blockquote class="quote">
                 "The first rule of any technology used in a business is that
                 automation applied to an efficient operation will magnify the efficiency. The second is that
                 automation applied to an inefficient operation will magnify the inefficiency."
             </blockquote>
+            <p class="author"><i>- Bill Gates</i></p>
         </section>
 
-        <section class="benefits">
+        <section class="benefits content-wrapper">
             <article>
                 <img src="../src/assets/images/icons/icon-growth.png" alt="growth-chart"/>
                 <h3 class="benefits_heading">Grow Your Business</h3>
@@ -64,7 +68,7 @@
             </article>
         </section>
 
-        <section class="info">
+        <section class="info content-wrapper">
             <article>
                 <img src="../src/assets/images/misc/team collaborating-min.png" alt="team-collaborating"/>
                 <h3>Goals We Can Help You Achieve</h3>
@@ -87,7 +91,8 @@
         </section>
 
         <section class="banner contact-us-banner flex-container justify-content-center flex-column">
-            <h1>LET'S CREATE SOMETHING GREAT TOGETHER</h1>
+            <div class="banner__filter"></div>
+            <h2>LET'S CREATE SOMETHING GREAT TOGETHER</h2>
             <p class="banner-text">
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -97,7 +102,7 @@
             <button class="btn btn-contact">CONTACT US</button>
         </section>
 
-        <section class="plan">
+        <section class="plan content-wrapper">
             <article>
                 <div class="icons">
                     <img src="../src/assets/images/icons/icon-chart.png" alt="pie-chart">
@@ -119,8 +124,9 @@
             </article>
         </section>
 
-        <section class="testimonials">
+        <section class="testimonials content-wrapper">
             <article class="testomonial">
+                <h3>Testimonial</h3>
                 <img class="quote-icon" src="../src/assets/images/icons/quotation mark.png" alt="quotations">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -132,6 +138,7 @@
                 <p class="company-position">CEO, Business Solutions</p>
             </article>
             <article class="testomonial">
+                <h3>Testimonial</h3>
                 <img class="quote-icon" src="../src/assets/images/icons/quotation mark.png" alt="quotations">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -144,6 +151,7 @@
         </section>
 
         <section class="banner start-invite">
+            <div class="banner__filter"></div>
             <h2>LET'S BRING IT TO THE NEXT LEVEL</h2>
             <p>We're here to guide you in the right direction when it comes to
                 improving technology and growing your business.</p>

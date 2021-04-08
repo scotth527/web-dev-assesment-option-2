@@ -1,5 +1,12 @@
 @media only screen and (min-width: 560px) {
-    .banner > p {
-        color: green;
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 74px;
+    }
+
+    .benefits {
+        flex-direction: row;
     }
 }
