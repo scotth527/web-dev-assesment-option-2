@@ -1,0 +1,53 @@
+
+.banner {
+    h1,
+    h2,
+    h3,
+    p, blockquote, .btn-contact {
+        color: $banner-font-color;
+        z-index: 10;
+    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //filter: brightness(60%);
+    align-items: center;
+    position: relative;
+
+    h2 {
+        text-shadow: 0px 3px 6.65px rgba(0,0,0,0.8);
+    }
+
+    h1,
+    h2,
+    h3 {
+        text-transform: uppercase;
+    }
+}
+
+.banner__filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 5;
+    background-color: rgb( 35, 35, 35);
+}
+
+.website-intro {
+    height: 656px;
+    background-image: url('../assets/images/banners/asset.jpg.png');
+    text-align: center;
+    font-family: $nav-link-font-family;
+    line-height: 0.833;
+    margin-bottom: 90px;
+}
+
+.contact-us-banner {
+    height: 372px;
+    background-image: url('../assets/images/banners/businessmen-min.png');
+    align-items: flex-start;
+    margin-bottom: 91px;
+}

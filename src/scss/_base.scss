@@ -4,6 +4,7 @@ $banner-header-font-size: 2.25rem;
 
 $nav-link-font-size: 1.25rem;
 $nav-link-font-family: 'Oswald', sans-serif;
+$small-text-font-family: 'Open Sans', sans-serif;
 
 $icon-heading-color: #8a6b52;
 $footer-font-color: #6e6d6d;
@@ -55,42 +56,8 @@ a:hover {
     align-items: center;
 }
 
-.banner {
-    h1,
-    h2,
-    h3,
-    p, blockquote, .btn-contact {
-        color: $banner-font-color;
-        z-index: 10;
-    }
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    //filter: brightness(60%);
-    align-items: center;
-    position: relative;
 
-    h2 {
-        text-shadow: 0px 3px 6.65px rgba(0,0,0,0.8);
-    }
 
-    h1,
-    h2,
-    h3 {
-        text-transform: uppercase;
-    }
-}
-
-.banner__filter {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-    z-index: 5;
-    background-color: rgb( 35, 35, 35);
-}
 
 h1 {
     font-size: 2.25rem;
@@ -98,29 +65,25 @@ h1 {
 
 h2 {
     font-size: 1.875rem;
+    margin-bottom: 23px;
 }
 
 h3 {
     font-size: 1.5rem;
+    margin-bottom: 35px;
 }
 
 p, blockquote, h4 {
     margin-bottom: 15px;
     font-size: 1rem;
+    font-family: $small-text-font-family;
+    line-height: 1.5;
 }
 
-.website-intro {
-    height: 656px;
-    background-image: url('../assets/images/banners/asset.jpg.png');
-    text-align: center;
-    font-family: $nav-link-font-family;
-    line-height: 0.833;
+.benefits__icon {
+    margin-bottom: 45px;
 }
 
-.contact-us-banner {
-    height: 372px;
-    background-image: url('../assets/images/banners/businessmen-min.png');
-}
 
 .start-invite {
     height: 531px;
@@ -168,5 +131,24 @@ p, blockquote, h4 {
     }
     a {
         margin-right: 23px;
+    }
+}
+
+.testimonials {
+    margin-bottom: 125px;
+}
+
+.testimonial {
+    position: relative;
+
+    .quote-icon {
+        position: absolute;
+        opacity: 0.85;
+        top: 45px;
+        left: 0px;
+    }
+
+    .testimonial__text {
+        margin-left: 9px;
     }
 }

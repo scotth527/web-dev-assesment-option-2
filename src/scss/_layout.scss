@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.flex-grid {
+    display: grid;
+}
+
+.flex-inline-grid {
+    display: inline-grid;
+}
+
 .justify-content-center {
     justify-content: center;
 }
@@ -15,15 +23,19 @@
 }
 
 .benefits {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    article {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
+    grid-gap: 56px;
+    grid-template-columns: repeat(auto-fit, minmax( 167px, 1fr));
+    grid-template-rows: 370px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.info {
+    margin-bottom: 113px;
+}
+
+.plan {
+    margin-bottom: 125px;
 }
 
 .footer, .start-invite {
