@@ -1,6 +1,9 @@
 $nav-footer-background-color: #312f2f;
 $banner-font-color: #ffffff;
 
+$icon-heading-color: #8a6b52;
+$footer-font-color: #6e6d6d;
+
 h1,
 h2,
 h3 {
@@ -54,6 +57,16 @@ a {
     background-image: url('../assets/images/banners/businessmen-min.png');
 }
 
+.start-invite {
+    height: 531px;
+    background-image: url('../assets/images/banners/climbing stairs-min.png');
+}
+
 .footer {
     height: 228px;
+    color: $footer-font-color;
+}
+
+.icon-description {
+    color: $icon-heading-color;
 }
