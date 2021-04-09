@@ -16,6 +16,10 @@ Buttons inside of the banners are transparent and have a white rounded border
     cursor: pointer;
     //This prevents the button from stretching
     align-self: center;
+
+}
+
+.btn.btn-contact {
     &:hover {
         background-color: white;
         color: black;
