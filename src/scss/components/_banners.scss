@@ -17,6 +17,8 @@
     align-items: center;
     position: relative;
 
+    /** h2 inside a banner has this text shadowing
+    */
     h2 {
         text-shadow: 0px 3px 6.65px rgba(0,0,0,0.8);
     }
@@ -33,7 +35,8 @@
     height: 100%;
 }
 
-
+/** Must be included inside your banner section to create the darker faded look
+*/
 .banner__filter {
     position: absolute;
     top: 0;
@@ -45,6 +48,8 @@
     background-color: rgb( 35, 35, 35);
 }
 
+/** First banner
+============================================================================*/
 .website-intro {
     height: 656px;
     background-image: url('../assets/images/banners/asset.jpg.png');
@@ -60,6 +65,8 @@
     }
 }
 
+/** Second banner
+===========================================================================*/
 .contact-us-banner {
     min-height: 372px;
     background-image: url('../assets/images/banners/businessmen-min.png');
@@ -68,4 +75,13 @@
     .content-wrapper {
         align-self: center;
     }
+}
+
+/** Last banner
+==========================================================================*/
+.start-invite {
+    height: 531px;
+    background-image: url('../assets/images/banners/climbing stairs-min.png');
+    text-align: center;
+    text-shadow: 0px 3px 6.65px rgba(0,0,0,0.8);
 }

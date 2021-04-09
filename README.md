@@ -1,15 +1,21 @@
 ### Setup
 
-1) Install npm packages first:
+1) Check if you have node installed
+```
+$ node -v
+```
+
+2) Install npm packages first:
 ```
 $ npm install
 ```
 
-2) Run on browser
+3) Run on browser
 ```
 $ npm run start
 ```
-3) Run a Build
+
+4) Run a Build
 ```
 $ npm run build
 ```

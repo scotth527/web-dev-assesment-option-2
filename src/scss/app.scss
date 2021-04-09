@@ -1,11 +1,18 @@
-@import '_normalize';
-@import '_base';
-@import '_layout';
+@import 'normalize';
+@import 'settings';
+@import 'base';
+@import 'layout';
 
 
-
-@import 'media_queries/medium';
-@import 'media_queries/large';
-
+/** Components
+========================================================================*/
+@import 'components/navbar';
 @import 'components/buttons';
 @import 'components/banners';
+@import 'components/testimonials';
+@import 'components/footer';
+
+/** Media media queries
+========================================================================*/
+@import 'media_queries/medium';
+@import 'media_queries/large';

@@ -1,0 +1,28 @@
+.testimonials {
+    margin-bottom: 125px;
+    flex-direction: column;
+}
+
+.testimonial {
+    position: relative;
+    margin-bottom: 30px;
+    .quote-icon {
+        position: absolute;
+        opacity: 0.85;
+        top: 45px;
+        left: 0px;
+    }
+
+    .testimonial__text {
+        margin-left: 9px;
+    }
+
+    .testimonial__profile-img {
+        margin-right: 16px;
+        align-self: center;
+    }
+
+    .name {
+        font-weight: bold;
+    }
+}
