@@ -3,7 +3,11 @@
     h1,
     h2,
     h3,
-    p, blockquote, .btn-contact {
+    p,
+    blockquote,
+    .btn-contact,
+    .banner__container,
+    .content-wrapper {
         color: $banner-font-color;
         z-index: 10;
     }
@@ -25,6 +29,12 @@
     }
 }
 
+.banner__container {
+    align-items: center;
+    height: 100%;
+}
+
+
 .banner__filter {
     position: absolute;
     top: 0;
@@ -43,11 +53,21 @@
     font-family: $nav-link-font-family;
     line-height: 0.833;
     margin-bottom: 90px;
+
+    .banner__container {
+        max-width: 679px;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 .contact-us-banner {
-    height: 372px;
+    min-height: 372px;
     background-image: url('../assets/images/banners/businessmen-min.png');
     align-items: flex-start;
     margin-bottom: 91px;
+    padding: 0px 79px;
+    .content-wrapper {
+        align-self: center;
+    }
 }

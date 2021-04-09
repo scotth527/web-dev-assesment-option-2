@@ -23,15 +23,17 @@
     </header>
 
     <main>
-        <section class="banner website-intro flex-container justify-content-center flex-column">
+        <section class="banner website-intro ">
             <div class="banner__filter"></div>
-            <h1>YOUR SUCCESSFUL WEBSITE TITLE</h1>
-            <blockquote class="quote">
-                "The first rule of any technology used in a business is that
-                automation applied to an efficient operation will magnify the efficiency. The second is that
-                automation applied to an inefficient operation will magnify the inefficiency."
-            </blockquote>
-            <p class="author"><i>- Bill Gates</i></p>
+            <div class="banner__container flex-container justify-content-center flex-column">
+                <h1>YOUR SUCCESSFUL WEBSITE TITLE</h1>
+                <blockquote class="quote">
+                    "The first rule of any technology used in a business is that
+                    automation applied to an efficient operation will magnify the efficiency. The second is that
+                    automation applied to an inefficient operation will magnify the inefficiency."
+                </blockquote>
+                <p class="author"><i>- Bill Gates</i></p>
+            </div>
         </section>
 
         <section class="benefits content-wrapper flex-grid">
@@ -69,63 +71,90 @@
             </article>
         </section>
 
-        <section class="info content-wrapper">
-            <article>
-                <img src="../src/assets/images/misc/team collaborating-min.png" alt="team-collaborating"/>
-                <h3>Goals We Can Help You Achieve</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas molestias excepturi sint occaecati
-                    cupiditate non provident, similique sunt in culpa qui officia
-                    deserunt mollitia animi, id est laborum et dolorum fuga.
-                </p>
+        <section class="info content-wrapper ">
+            <article class="info__section flex-grid">
+                <section>
+                    <img src="../src/assets/images/misc/team collaborating-min.png" alt="team-collaborating"/>
+                    <h3>Goals We Can Help You Achieve</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus
+                        qui blanditiis praesentium voluptatum deleniti atque corrupti
+                        quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate non provident, similique sunt in culpa qui officia
+                        deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </p>
+                </section>
             </article>
-            <article>
-                <img src="../src/assets/images/misc/meeting room-min.png" alt="meeting room meeting"/>
-                <h3>It All Starts With Strategy</h3>
-                <p>Temporibus autem quibusdam et aut officiis debitis aut rerum
-                    necessitatibus saepe eveniet ut et voluptates repudiandae
-                    sint et molestiae non recusandae. Itaque earum rerum hic
-                    tenetur a sapiente delectus, ut aut reiciendis voluptatibus.
-                </p>
+            <article class="info__section flex-grid">
+                <section>
+                    <img src="../src/assets/images/misc/meeting room-min.png" alt="meeting room meeting"/>
+                    <h3>It All Starts With Strategy</h3>
+                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum
+                        necessitatibus saepe eveniet ut et voluptates repudiandae
+                        sint et molestiae non recusandae. Itaque earum rerum hic
+                        tenetur a sapiente delectus, ut aut reiciendis voluptatibus.
+                    </p>
+                </section>
             </article>
         </section>
 
-        <section class="banner contact-us-banner flex-container justify-content-center flex-column">
+        <section class="banner contact-us-banner flex-container ">
             <div class="banner__filter"></div>
-            <h2>LET'S CREATE SOMETHING GREAT TOGETHER</h2>
-            <p class="banner-text">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae vitae
-                dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
-            </p>
-            <button class="btn btn-contact">CONTACT US</button>
+            <div class="content-wrapper ">
+                <h2>LET'S CREATE SOMETHING GREAT TOGETHER</h2>
+                <p class="banner-text">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                    quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+                </p>
+                <button class="btn btn-contact">CONTACT US</button>
+            </div>
+
         </section>
 
         <section class="plan content-wrapper">
             <article>
-                <div class="icons">
-                    <img src="../src/assets/images/icons/icon-chart.png" alt="pie-chart">
-                    <p class="icon-description">75% GROWTH</p>
-                    <img src="../src/assets/images/icons/icon-dollar.png" alt="dollar-sign">
-                    <p class="icon-description">115% PROFIT</p>
-                    <img src="../src/assets/images/icons/icon-laptop.png" alt="computer-with-dollar-sign">
-                    <p class="icon-description">32% SAVINGS</p>
-                    <img src="../src/assets/images/icons/icon-mail.png" alt="email-icon">
-                    <p class="icon-description">24/7 SUPPORT</p>
+                <div class="flex-container plan-wrapper">
+                    <div class="icons flex-grid column-half">
+                        <div class="icon__container">
+                            <div>
+                                <img src="../src/assets/images/icons/icon-chart.png" alt="pie-chart">
+                                <p class="icon-description">75% GROWTH</p>
+                            </div>
+                        </div>
+                        <div class="icon__container">
+                            <div>
+                                <img src="../src/assets/images/icons/icon-dollar.png" alt="dollar-sign">
+                                <p class="icon-description">115% PROFIT</p>
+                            </div>
+                        </div>
+                        <div class="icon__container">
+                            <div>
+                                <img src="../src/assets/images/icons/icon-laptop.png" alt="computer-with-dollar-sign">
+                                <p class="icon-description">32% SAVINGS</p>
+                            </div>
+                        </div>
+                        <div class="icon__container">
+                            <div>
+                                <img src="../src/assets/images/icons/icon-mail.png" alt="email-icon">
+                                <p class="icon-description">24/7 SUPPORT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-half">
+                        <h3>We'll Help You Create a Plan</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus
+                            qui blanditiis praesentium voluptatum deleniti atque corrupti
+                            quos dolores et quas molestias excepturi sint occaecati
+                            cupiditate non provident, similique sunt in culpa qui officia
+                            deserunt mollitia animi, id est laborum et dolorum fuga.
+                        </p>
+                    </div>
                 </div>
-                <h3>We'll Help You Create a Plan</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus
-                    qui blanditiis praesentium voluptatum deleniti atque corrupti
-                    quos dolores et quas molestias excepturi sint occaecati
-                    cupiditate non provident, similique sunt in culpa qui officia
-                    deserunt mollitia animi, id est laborum et dolorum fuga.
-                </p>
             </article>
         </section>
 
-        <section class="testimonials content-wrapper">
+        <section class="testimonials content-wrapper flex-container ">
             <article class="testimonial">
                 <h3>Testimonial</h3>
                 <img class="quote-icon" src="../src/assets/images/icons/quotation mark.png" alt="quotations">
@@ -134,9 +163,13 @@
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <img src="../src/assets/images/profiles/Layer 2.png" alt="Jane Doe profile">
-                <h4 class="name">Jane Doe</h4>
-                <p class="company-position">CEO, Business Solutions</p>
+                <div class="flex-container ">
+                    <img class="testimonial__profile-img" src="../src/assets/images/profiles/Layer 2.png" alt="Jane Doe profile">
+                    <div>
+                        <h4 class="name">Jane Doe</h4>
+                        <p class="company-position">CEO, Business Solutions</p>
+                    </div>
+                </div>
             </article>
             <article class="testimonial">
                 <h3>Testimonial</h3>
@@ -145,18 +178,25 @@
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                <img src="../src/assets/images/profiles/Layer 3.png" alt="John Doe profile">
-                <h4 class="name">John Doe</h4>
-                <p class="company-position">CEO, Business Solutions</p>
+
+                <div class="flex-container">
+                    <img class="testimonial__profile-img" src="../src/assets/images/profiles/Layer 3.png" alt="John Doe profile">
+                    <div>
+                        <h4 class="name">John Doe</h4>
+                        <p class="company-position">CEO, Business Solutions</p>
+                    </div>
+                </div>
             </article>
         </section>
 
         <section class="banner start-invite">
             <div class="banner__filter"></div>
-            <h2>LET'S BRING IT TO THE NEXT LEVEL</h2>
-            <p>We're here to guide you in the right direction when it comes to
-                improving technology and growing your business.</p>
-            <button class="btn btn-contact">START TODAY</button>
+            <div class="content-wrapper">
+                <h2>LET'S BRING IT TO THE NEXT LEVEL</h2>
+                <p>We're here to guide you in the right direction when it comes to
+                    improving technology and growing your business.</p>
+                <button class="btn btn-contact">START TODAY</button>
+            </div>
         </section>
 
     </main>

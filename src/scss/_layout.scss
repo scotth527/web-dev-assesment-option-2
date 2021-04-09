@@ -22,20 +22,35 @@
     flex-direction: column;
 }
 
+.column-half {
+    width: 48%;
+    margin-right: 2%;
+}
+
 .benefits {
     grid-gap: 56px;
     grid-template-columns: repeat(auto-fit, minmax( 167px, 1fr));
-    grid-template-rows: 370px;
+    grid-template-rows: minmax(370px);
     text-align: center;
     margin-bottom: 150px;
 }
 
 .info {
     margin-bottom: 113px;
+
+
 }
 
 .plan {
     margin-bottom: 125px;
+    .plan-wrapper {
+        display: block;
+    }
+
+    .column-half {
+        width: 100%;
+        margin:0;
+    }
 }
 
 .footer, .start-invite {
