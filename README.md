@@ -9,7 +9,7 @@ $ npm install
 ```
 $ npm run start
 ```
-3)Run a Build
+3) Run a Build
 ```
 $ npm run build
 ```
